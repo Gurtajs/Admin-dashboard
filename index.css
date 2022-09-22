@@ -1,0 +1,238 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: grid;
+    grid-template-columns: 220px 800px 1fr ;
+    grid-template-rows: 50px 70px 1fr;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-column: 2/3;
+    gap: 400px;  
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #0ea5e9;
+    display: grid;
+    grid-template-rows: 80px 220px 80px ;
+    grid-row: 1/3;
+    position: fixed;
+    height: 100%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: white;
+    padding-left: 20px;
+}
+
+.searchbar {
+    background-color: #cbd5e1;
+    width: 450px;
+    height: 26px;
+    border-radius: 7px;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 40px 60px;
+    padding-left: 35px;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: 60px 60px 200px;
+    align-items: center;
+}
+
+.left-side2 {
+    padding-top: 15px;
+}
+
+.dash {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.home, .profile, .messages, .history, .tasks, .communities, .setting, .support, .privacy {
+   display: grid;
+   grid-template-columns: 40px 20px;
+   align-items: center;
+   padding-top: 10px;
+}
+
+.header2 {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 40px 40px;
+    gap: 820px;
+    align-items: center;
+   
+}
+
+.description {
+    width: 60px;
+}
+.description1 {
+    width: 220px;
+}
+
+.lefth {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    padding-left: 30px;
+}
+
+.righth {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    gap: 20px;
+    
+}
+.new, .upload, .share {
+    display: grid;
+    height: 30px;
+    width: 75px;
+    background-color: #088ecc;
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentl {
+    grid-column: 2/3;
+    padding-left: 30px;
+    background-color: rgb(231, 231, 231);
+    height: 700px;  
+}
+
+.boxes {
+    border: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.boxes {
+    width: 330px;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white; 
+}
+
+.orange {
+    width:10px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.inside {
+    width: 310px;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: 170px
+}
+
+.figures {
+    padding-top: 10px;
+    padding-left: 190px;
+}
+
+.all {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 25px;
+}
+
+.anno {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    background-color: rgb(231, 231, 231); 
+    padding-left: 20px;
+
+}
+
+.announcements {
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    margin: 0;
+}
+
+.line {
+    width: 250px;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;  
+}
+
+.trend {
+    background-color: white;
+    border-radius: 5px;
+    display: grid;
+    align-content: center;
+    padding-top: 10px;
+    height: 250px;
+    width: 300px;
+    gap: 10px;
+}
+
+.pr1 {
+    display: grid;
+    grid-template-columns: 50px 200px;
+    gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.top {
+    margin-top: 25px;
+}
+
+.figures1 {
+    padding-top: 50px;
+    padding-left: 190px;
+}
+
+.figures2 {
+    padding-top: 15px;
+    padding-left: 190px;
+}
+
+.figures3 {
+    padding-top: 50px;
+    padding-left: 190px;
+}
+
+.figures4 {
+    padding-top: 35px;
+    padding-left: 190px;
+}
+
+.figures5 {
+    padding-top: 35px;
+    padding-left: 190px;
+}
+
+.figures6 {
+    padding-top: 35px;
+    padding-left: 190px;
+}
